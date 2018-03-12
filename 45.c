@@ -1,11 +1,11 @@
 include<stdio.h>
-int main(void)
+int main()
 {
-long int n,count=0;
-scanf("%ld",&n);
-while(n!=0)
+long int a,count=0;
+scanf("%ld",&a);
+while(a!=0)
 {
-n=n/10;
+a=a/10;
 count++;
 }
 printf("%ld,count);
