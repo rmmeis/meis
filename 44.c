@@ -1,9 +1,9 @@
 include<stdio.h>
-int main(void)
+int main()
 {
-int n;
-scanf("%d",&n);
-if((n>=1)&&(n<=10))
+int a;
+scanf("%d",&a);
+if((n>=1)&&(a<=10))
 printf("yes");
 else
 printf("no");
