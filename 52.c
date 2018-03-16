@@ -1,5 +1,6 @@
 #include<stdio.h>
-int main(void)
+#include<conio.h>
+int main()
 {
 int N;
 scanf("%d",&N);
