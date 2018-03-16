@@ -2,14 +2,13 @@
 #include<string.h>
 int main()
 {
-    char ch[100];
-    gets(ch);
-    int k,i;
-    k=strlen(ch);
-    for(i=0;i<k;i++)
-    {
-    printf("%c ",ch[i]);	
-    }
-    
-    return 0;
+char ch[100];
+gets(ch);
+int n,i;
+k=strlen(ch);
+for(i=0;i<n;i++)
+{
+printf("%c ",ch[i]);	
+}
+return 0;
 }
