@@ -1,10 +1,10 @@
 #include<stdio.h>
-int main(void)
+int main()
 {
-int N,M;
+int n,m;
 int mul;
-scanf("%d %d",&N,&M);
-mul=N*M;
+scanf("%d %d",&n,&m);
+mul=n*m;
 if(mul%2==0)
 printf("even");
 else
