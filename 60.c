@@ -1,28 +1,22 @@
 #include <stdio.h>
-
-int main(void) {
+int main()
+{
 int n;
 scanf("%d",&n);
 int next,first=0,second=1,i;
-
 for(i=0;i<n;i++)
 {
-	if(n==1)
+if(n==1)
 {
 next=n;
-
 }
 else
 {
-	first=second;
+first=second;
 second=next;
 next=first+second;
-
-
 }
 printf("%d ",next);
 }
-
-
-	return 0;
+return 0;
 }
